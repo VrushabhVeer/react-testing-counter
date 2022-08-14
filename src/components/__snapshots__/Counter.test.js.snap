@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Counter component should match the snapshot 1`] = `
+<counter
+  data-testid="customComponent"
+>
+  <h1>
+    Counter
+  </h1>
+  <h2>
+    0
+  </h2>
+  <button
+    className="inc"
+    data-testid="incBtn"
+    onClick={[Function]}
+  >
+    Increment
+  </button>
+  <button
+    className="dec"
+    data-testid="decBtn"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Decrement
+  </button>
+</counter>
+`;
